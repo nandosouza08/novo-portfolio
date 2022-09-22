@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    /* a cada 1rem será considera 10px */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100vh;
+    font-family: "Source Sans Pro";
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    background-color: #132a13;
+    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+header img {
+    width: 190px;
+    margin-left: 20px;
+    padding: 15px 0;
+}
+
+.picture {
+    margin-left: 00px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem; 
+    padding: 2.4rem;
+    transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover {
+    background: rgba(255,255,255, 0.15)
+}
+
+h2 {
+    color: rgb(75, 75, 75);
+    font-size: 36px;
+    line-height: 46px;
+}
+
+h3 {
+    color: white;
+    font-size: 18px;
+    
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: #31572c;
+    margin: 15px 0px 0px;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 150ms linear 0s;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+/*=============== 
+HERO
+==================*/
+section.hero {
+    margin: 80px 0;
+}
+
+section.hero .container {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+}
+
+section.hero p {
+    color: rgb(154, 142, 191);
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin: 10px 0px 0px;
+}
+
+.sobre-mim {
+    background-color: #c1ccbf;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: "Source Sans Pro";
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    margin: 150px 0px;
+}
+
+.about {
+    height: 50%;
+}
+
+.container-skills {
+    height: 150px;
+}
+
+.skills {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills p {
+    font-size: 5rem;
+}
+
+.about {
+    font-size: 5rem;
+    color: white bold;
+}
+
+.cards > p {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 60px;
+}
+
+.card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 40px;
+    row-gap: 40px;
+    margin-bottom: 100px;
+}
+
+.card > img {
+    cursor: pointer;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    transition: all .3s;
+}
+
+.card > img:hover {
+    transform: scale(1.1);
+    border-radius: 2px;
+    box-shadow: 0 15px 25px rgba(255,255,255,.9);
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    color: #fff;
+    margin-bottom: 0px;
+    cursor: default;
+    background-color: #132a13;
+    padding: 20px;
+}
+
+h3 {
+
+}
+
+.instagram{
+    padding-right: 10px;
+    transition: transform 0.2s;
+}
+
+.instagram:hover {
+    transform: scale(1.1);
+}
+
+.facebook{
+    padding-right: 10px;
+    transition: transform 0.2s;
+}
+
+.facebook:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp{
+    padding-right: 10px;
+    transition: transform 0.2s;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+}
