@@ -183,6 +183,8 @@ section.hero p {
 
 .skills p {
     font-size: 5rem;
+    color: rgb(75, 75, 75);
+    font-family: "Source Sans Pro";
 }
 
 
@@ -193,9 +195,11 @@ section.hero p {
 }
 
 .card {
-    width: 100%;
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
     justify-content: center;
     justify-items: center;
     column-gap: 40px;
@@ -302,4 +306,153 @@ h3 {
 
 .linkedin:hover {
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 4920px) {
+    .card{
+        width: 50%;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        justify-items: center;
+        column-gap: 40px;
+        row-gap: 40px;
+        margin-bottom: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 1323px) {
+
+    .card{
+        width: 50%;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        justify-items: center;
+        column-gap: 40px;
+        row-gap: 40px;
+        margin-bottom: 100px;
+    }
+    .texto-sobre-mim {
+        font-size: 17px;
+    }
+    .sent{
+        width: 300px;
+    }
+    #btnTop{
+        position: fixed;
+        bottom: 60px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 1287px) {
+    .card{
+        width: 50%;
+        
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        justify-items: center;
+        column-gap: 40px;
+        row-gap: 40px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 889px) {
+    #btnTop{
+        display: none;
+        color: transparent;
+        background-color: transparent;
+        border: none;
+    }
+    .arrow{
+        display: none;
+        color: transparent;
+        background-color: transparent;
+    }
+    .up{
+        display: none;
+        color: transparent;
+        background-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 805px) {
+    .card{
+        width: 50%;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        justify-items: center;
+        column-gap: 40px;
+        row-gap: 40px;
+        margin-bottom: 100px;
+    }
+    .picture{
+        width: 400px;
+    }
+    .container-titulos h2{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+    .texto-sobre-mim {
+        font-size: 1.5rem;
+        padding-top: 50px;
+        margin: 0 90px;
+    
+        color: rgb(75, 75, 75);
+        line-height: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 696px) {
+    .sent{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 607px) {
+    .texto-sobre-mim{
+        line-height: 30px;
+        margin: 0 5px;
+    }
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .picture{
+        order: -1;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .picture{
+        width: 250px;
+    }
+    .texto-sobre-mim{
+        font-size: 1.5rem;
+    }
+    .cards{
+        
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
 }
