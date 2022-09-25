@@ -110,10 +110,16 @@ section.hero {
 
 section.hero .container {
     width: 90%;
-    max-width: 980px;
+    max-width: 1500px;
     margin: auto;
     display: flex;
     height: 650px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-titulos {
+    max-width: 700px;
 }
 
 section.hero p {
@@ -213,13 +219,18 @@ section.hero p {
     display: flex;
     justify-content: space-around;
     font-size: 0.7rem;
-    
+    align-items: center;
     margin: 0px;
     color: #fff;
     margin-bottom: 0px;
     cursor: default;
     background-color: #132a13;
     padding: 20px;
+}
+
+.redes-sociais {
+    align-items: center;
+    justify-content: center;
 }
 
 h3 {
@@ -281,5 +292,14 @@ h3 {
 }
 
 .whatsapp:hover {
+    transform: scale(1.1);
+}
+
+.linkedin {
+    padding-right: 10px;
+    transition: transform 0.2s;
+}
+
+.linkedin:hover {
     transform: scale(1.1);
 }
