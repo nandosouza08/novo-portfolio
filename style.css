@@ -112,6 +112,7 @@ section.hero .container {
     max-width: 980px;
     margin: auto;
     display: flex;
+    height: 650px;
 }
 
 section.hero p {
@@ -121,22 +122,45 @@ section.hero p {
     margin: 10px 0px 0px;
 }
 
-.sobre-mim {
+
+
+.about {
     background-color: #c1ccbf;
-    height: 800px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    
     font-size: 2.5rem;
     font-family: "Source Sans Pro";
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
     margin: 150px 0px;
+    
 }
 
-.about {
-    height: 50%;
+.about-me {
+    font-size: 4.5rem;
+    justify-content: start;
+    padding-top: 50px;
+
+    color: rgb(75, 75, 75);
+    font-size: 4.5rem;
+    line-height: 46px;
+}
+
+.texto-sobre-mim {
+    font-size: 2.3rem;
+    padding-top: 50px;
+    margin: 0 10px;
+
+    color: rgb(75, 75, 75);
+    line-height: 46px;
+}
+
+.sent {
+    padding-top: 50px;
+    
 }
 
 .container-skills {
@@ -154,10 +178,6 @@ section.hero p {
     font-size: 5rem;
 }
 
-.about {
-    font-size: 5rem;
-    color: white bold;
-}
 
 .cards > p {
     text-align: center;
@@ -192,7 +212,7 @@ section.hero p {
     display: flex;
     justify-content: space-around;
     font-size: 0.7rem;
-    font-family: 'Roboto', sans-serif;
+    
     margin: 0px;
     color: #fff;
     margin-bottom: 0px;
@@ -202,7 +222,21 @@ section.hero p {
 }
 
 h3 {
+    font-size: 1.5rem;
+    font-family: "Source Sans Pro";
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
 
+#back-to-top {
+    border: none;
+    display: inline-block;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    background-color: transparent;
+    justify-content: space-between;
+    cursor: pointer;
 }
 
 .instagram{
