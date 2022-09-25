@@ -133,7 +133,7 @@ section.hero p {
 
 .about {
     background-color: #c1ccbf;
-    height: 900px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -142,7 +142,7 @@ section.hero p {
     font-family: "Source Sans Pro";
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
-    margin: 150px 0px;
+    margin: 134px 0px;
     
 }
 
@@ -159,10 +159,10 @@ section.hero p {
 .texto-sobre-mim {
     font-size: 2.3rem;
     padding-top: 50px;
-    margin: 0 10px;
+    margin: 0 90px;
 
     color: rgb(75, 75, 75);
-    line-height: 46px;
+    line-height: 40px;
 }
 
 .sent {
