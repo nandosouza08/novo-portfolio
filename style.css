@@ -532,6 +532,14 @@ h3 {
         }
     }
 
+    @media only screen and (max-width: 630px) {
+        .menu-section.on .menu-toggle {
+            position: absolute;
+            right: 33px;
+            top: 15px;
+        }
+    }
+
     @media only screen and (max-width: 607px) {
         .texto-sobre-mim {
             line-height: 28px;
