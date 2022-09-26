@@ -464,7 +464,7 @@ h3 {
 
     .menu-section.on .menu-toggle {
         position: absolute;
-        right: 38px;
+        right: 29px;
         top: 15px;
     }
 
@@ -542,6 +542,12 @@ h3 {
         .sent {
             width: 300px;
         }
+        .menu-section.on .menu-toggle {
+            position: absolute;
+            right: 24px;
+            top: 15px;
+        }
+        
     }
 
     @media only screen and (max-width: 395px) {
@@ -561,5 +567,10 @@ h3 {
         }
         .rodape h3{
             display: none;
+        }
+        .menu-section.on .menu-toggle {
+            position: absolute;
+            right: 20px;
+            top: 15px;
         }
     }
