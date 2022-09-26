@@ -44,3 +44,18 @@ function scrollToPosition(to) {
         behavior: "smooth",
     });
 }
+
+/* menu responsivo */
+
+let show = true;
+
+const menuSection = document.querySelector(".menu-section")
+const MenuToggle = document.querySelector(".menu-toggle")
+
+MenuToggle.addEventListener("click", () => {
+
+    document.body.style.overflow = show ? "hidden" : "initial"
+
+    menuSection.classList.toggle("on", show)
+    show = !show;
+})

@@ -32,7 +32,7 @@ header {
     
 }
 
-header .container {
+header .container-boss {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -192,6 +192,10 @@ section.hero p {
     text-align: center;
     font-size: 5rem;
     margin-bottom: 60px;
+}
+
+section.cards.card{
+    width: 150px;
 }
 
 .card {
@@ -386,6 +390,9 @@ h3 {
         color: transparent;
         background-color: transparent;
     }
+    .container-titulos h2{
+        font-size: 28px;
+    }
 }
 
 @media only screen and (max-width: 805px) {
@@ -407,6 +414,69 @@ h3 {
     .container-titulos h2{
         font-size: 25px;
     }
+    nav{
+        display: none;
+    }
+    .one,
+    .two,
+    .three {
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+    .menu-toggle {
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    /* Fulscreem */
+
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #132a13;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-section.on nav{
+        display: block;
+    }
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 38px;
+        top: 15px;
+    }
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on nav ul {
+        text-align: cecnter;
+        display: block;
+    }
+
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 3rem;
+        line-height: 4rem;
+        display: block;
 }
 
 @media only screen and (max-width: 764px) {
@@ -436,6 +506,7 @@ h3 {
         flex-direction: column;
         text-align: center;
     }
+    
     .picture{
         order: -1;
     }
@@ -450,9 +521,6 @@ h3 {
     }
     .cards{
         
+
     }
-}
-
-@media only screen and (max-width: 320px) {
-
 }
