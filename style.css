@@ -62,7 +62,7 @@ header nav ul li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     padding: 2.4rem;
     transition: all 250ms linear 0s;
 }
@@ -324,7 +324,8 @@ h3 {
         row-gap: 40px;
         margin-bottom: 100px;
     }
-    body{
+
+    body {
         overflow-x: hidden;
     }
 }
@@ -429,11 +430,11 @@ h3 {
         display: flex;
     }
 
-    .logoTop{
+    .logoTop {
         display: none;
     }
 
-    .inicio{
+    .inicio {
         display: none;
     }
 
@@ -441,14 +442,21 @@ h3 {
         font-size: 20px;
     }
 
-    .habilidades{
+    .habilidades {
         font-size: 20px;
     }
 
     .cabecalho-menu {
+        display: flex;
+
         align-items: center;
         justify-content: center;
+    }
+
+    .cabecalho-menu {
+
         height: 50px;
+
     }
 
     one,
@@ -516,127 +524,143 @@ h3 {
         line-height: 4rem;
         display: block;
     }
-    .rodape h3, .redes-sociais{
+
+    .rodape h3,
+    .redes-sociais {
         display: flex;
         justify-content: space-around;
         font-size: 1.1rem;
-        
+
     }
-    nav .redes-sociais{
+
+    nav .redes-sociais {
         width: 20px;
     }
 }
-    @media only screen and (max-width: 764px) {
-        .texto-sobre-mim {
-            font-size: 1.5rem;
-            padding-top: 50px;
-            margin: 0 90px;
 
-            color: rgb(75, 75, 75);
-            line-height: 40px;
-        }
+@media only screen and (max-width: 764px) {
+    .texto-sobre-mim {
+        font-size: 1.5rem;
+        padding-top: 50px;
+        margin: 0 90px;
+
+        color: rgb(75, 75, 75);
+        line-height: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 696px) {
+    .texto-sobre-mim {
+        line-height: 35px;
+        margin: 0 25px;
     }
 
-
-    @media only screen and (max-width: 696px) {
-        .texto-sobre-mim {
-            line-height: 35px;
-            margin: 0 25px;
-        }
-
-        .sent {
-            width: 300px;
-        }
-        .menu-section.on .menu-toggle {
-            position: absolute;
-            right: 35px;
-            top: 15px;
-        }
+    .sent {
+        width: 300px;
     }
 
-    @media only screen and (max-width: 630px) {
-        .menu-section.on .menu-toggle {
-            position: absolute;
-            right: 33px;
-            top: 15px;
-        }
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 35px;
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 33px;
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 607px) {
+    .texto-sobre-mim {
+        line-height: 28px;
+        margin: 0 25px;
     }
 
-    @media only screen and (max-width: 607px) {
-        .texto-sobre-mim {
-            line-height: 28px;
-            margin: 0 25px;
-        }
-
-        .container {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .picture {
-            order: -1;
-        }
-
-        .sent {
-            width: 300px;
-        }
-        .menu-section.on .menu-toggle {
-            position: absolute;
-            right: 30px;
-            top: 15px;
-        } 
+    .container {
+        flex-direction: column;
+        text-align: center;
     }
 
-    @media only screen and (max-width: 513px) {
-        .menu-section.on .menu-toggle {
-            position: absolute;
-            right: 25px;
-            top: 15px;
-        }
+    .picture {
+        order: -1;
     }
 
-    @media only screen and (max-width: 425px) {
-        .menu-section.on .menu-toggle {
-            position: absolute;
-            right: 22px;
-            top: 15px;
-        }
+    .sent {
+        width: 300px;
     }
 
-    @media only screen and (max-width: 395px) {
-        .picture {
-            width: 250px;
-        }
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 30px;
+        top: 15px;
+    }
+    .texto-sobre-mim {
+        font-size: 1.7rem;
+    }
+}
 
-        .texto-sobre-mim {
-            font-size: 1.5rem;
-        }
-        .menu-section.on .menu-toggle {
-            position: absolute;
-            right: 20px;
-            top: 15px;
-        }
+@media only screen and (max-width: 513px) {
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 25px;
+        top: 15px;
+    }
+    .texto-sobre-mim {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 22px;
+        top: 15px;
+    }
+    .texto-sobre-mim {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .picture {
+        width: 300px;
     }
 
-    @media only screen and (max-width: 395px) {
-        .texto-sobre-mim {
-            font-size: 1.3rem;
-            line-height: 23px;
-        }
-        .rodape h3{
-            display: none;
-        }
-        
-        body{
-            overflow-x: hidden;
-        }
-        .sobre-mim {
-            font-size: 10px;
-        }
-    
-        .habilidades{
-            font-size: 10px;
-        }
+    .texto-sobre-mim {
+        font-size: 1.6rem;
     }
 
-    
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .texto-sobre-mim {
+        font-size: 1.6rem;
+        line-height: 23px;
+    }
+
+    .rodape h3 {
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .sobre-mim {
+        font-size: 15px;
+    }
+
+    .habilidades {
+        font-size: 15px;
+    }
+}
