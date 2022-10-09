@@ -80,7 +80,6 @@ h2 {
 h3 {
     color: white;
     font-size: 18px;
-
 }
 
 .button {
@@ -186,7 +185,6 @@ section.hero p {
     font-family: "Source Sans Pro";
 }
 
-
 .cards>p {
     text-align: center;
     font-size: 5rem;
@@ -213,12 +211,13 @@ section.cards.card {
 .card>img {
     cursor: pointer;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
-    transition: all .3s;
+    transition: all .4s;
+    border-radius: 20%;
 }
 
 .card>img:hover {
     transform: scale(1.1);
-    border-radius: 2px;
+    border-radius: 0%;
     box-shadow: 0 15px 25px rgba(255, 255, 255, .9);
 }
 
@@ -361,13 +360,11 @@ h3 {
         width: 50px;
         height: 50px;
     }
-
 }
 
 @media only screen and (max-width: 1287px) {
     .card {
         width: 50%;
-
         margin: auto;
         display: grid;
         grid-template-columns: auto auto;
@@ -448,15 +445,12 @@ h3 {
 
     .cabecalho-menu {
         display: flex;
-
         align-items: center;
         justify-content: center;
     }
 
     .cabecalho-menu {
-
         height: 50px;
-
     }
 
     one,
@@ -543,12 +537,10 @@ h3 {
         font-size: 1.5rem;
         padding-top: 50px;
         margin: 0 90px;
-
         color: rgb(75, 75, 75);
         line-height: 40px;
     }
 }
-
 
 @media only screen and (max-width: 696px) {
     .texto-sobre-mim {
@@ -612,6 +604,7 @@ h3 {
     }
     .texto-sobre-mim {
         font-size: 1.7rem;
+        line-height: 23px;
     }
 }
 
@@ -623,6 +616,7 @@ h3 {
     }
     .texto-sobre-mim {
         font-size: 1.5rem;
+        line-height: 20px;
     }
 }
 
@@ -645,7 +639,7 @@ h3 {
 @media only screen and (max-width: 395px) {
     .texto-sobre-mim {
         font-size: 1.6rem;
-        line-height: 23px;
+        line-height: 20px;
     }
 
     .rodape h3 {
