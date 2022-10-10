@@ -35,8 +35,8 @@ header .container-boss {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
-    max-width: 980px;
+    width: 73%;
+    max-width: 90vw;
     margin: auto;
 }
 
@@ -657,4 +657,19 @@ h3 {
     .habilidades {
         font-size: 15px;
     }
+}
+/* dark mode */
+.dark-mode {
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+
+.btnClass img{
+    width: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btnClass img:hover{
+    transform: scale(1.1);
 }
