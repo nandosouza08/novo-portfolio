@@ -606,6 +606,12 @@ h3 {
         font-size: 1.7rem;
         line-height: 23px;
     }
+    .habilidades, .sobre-mim{
+        font-size: 13px;
+    }
+    header nav ul li a{
+        padding: 1.0rem;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -634,6 +640,7 @@ h3 {
         right: 20px;
         top: 15px;
     }
+    
 }
 
 @media only screen and (max-width: 395px) {
@@ -657,7 +664,25 @@ h3 {
     .habilidades {
         font-size: 15px;
     }
+    .habilidades, .sobre-mim{
+        font-size: 13px;
+    }
+    header nav ul li a{
+        padding: 1.0rem;
+    }
 }
+
+@media only screen and (max-width: 324px) {
+
+    .habilidades, .sobre-mim{
+        font-size: 13px;
+    }
+    header nav ul li a{
+        padding: 1.0rem;
+    }
+}
+
+
 /* dark mode */
 .dark-mode {
     background-color: rgb(17, 16, 16);
