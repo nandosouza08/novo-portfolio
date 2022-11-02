@@ -212,13 +212,12 @@ section.cards.card {
     cursor: pointer;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     transition: all .4s;
-    border-radius: 20%;
 }
 
 .card>img:hover {
     transform: scale(1.1);
-    border-radius: 0%;
-    box-shadow: 0 15px 25px rgba(255, 255, 255, .9);
+    border-radius: 5%;
+    box-shadow: 0 15px 25px rgba(255, 255, 255, .5);
 }
 
 .rodape {
@@ -419,6 +418,10 @@ h3 {
         width: 400px;
     }
 
+    .texto-sobre-mim{
+        line-height: 35px;
+    }
+
     .container-titulos h2 {
         font-size: 25px;
     }
@@ -538,7 +541,7 @@ h3 {
         padding-top: 50px;
         margin: 0 90px;
         color: rgb(75, 75, 75);
-        line-height: 40px;
+        line-height: 35px;
     }
 }
 
@@ -697,4 +700,17 @@ h3 {
 
 .btnClass img:hover{
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 313px) {
+    .texto-sobre-mim{
+        font-size: 13px;
+    }
+    .sent{
+        width: 220px;
+    }
+    .cards{
+        
+        
+    }
 }
